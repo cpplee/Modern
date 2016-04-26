@@ -1,0 +1,6 @@
+[ 2016-04-26T22:13:58+08:00 ] ::1 /Moderna/index.php/GROUP_NAME/Category/addCate/pid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:GROUP_NAME
+

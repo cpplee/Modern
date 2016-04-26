@@ -25,6 +25,7 @@
 </head>
 <body>
 <div id="wrapper">
+
 	<!-- start header -->
   <header>
     <div class="navbar navbar-default navbar-static-top">
@@ -35,27 +36,29 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="../index.html"><span>新旺激光</span>技术有限公司</a>
+                <a class="navbar-brand" href="../index.html"><span>成都新旺激光</span>技术有限公司</a>
             </div>
+
             <div class="navbar-collapse collapse ">
                 <ul class="nav navbar-nav">
                     <li><a href="<?php echo U(MODULE_NAME.'/Index/index');?>">主页</a></li>
                     <li class="dropdown ">
                         <a href="#" class="dropdown-toggle " data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">产品中心<b class=" icon-angle-down"></b></a>
                         <ul class="dropdown-menu">
-                            <li><a href="<?php echo U(MODULE_NAME.'/Index/typography');?>">模具类</a></li>
-                            <li><a href="<?php echo U(MODULE_NAME.'/Index/components');?>">轴类</a></li>
-                            <li><a href="#">齿轮类</a></li>
-                            <li><a href="#">压辊类</a></li>
-                            <li><a href="#">平面类</a></li>
-                            <li><a href="#">非标类</a></li>
-                            <li><a href="#">激光设备销售</a></li>
+                            <li><a href="<?php echo U(MODULE_NAME.'/Index/portfolio');?>">齿轮类</a></li>
+                            <li><a href="<?php echo U(MODULE_NAME.'/Index/portfolio');?>">电动机发电机轴激光修复类</a></li>
+                            <li><a href="<?php echo U(MODULE_NAME.'/Index/portfolio');?>">非标类</a></li>
+                            <li><a href="<?php echo U(MODULE_NAME.'/Index/portfolio');?>">模具类</a></li>
+                            <li><a href="<?php echo U(MODULE_NAME.'/Index/portfolio');?>">平面类</a></li>
+                            <li><a href="<?php echo U(MODULE_NAME.'/Index/portfolio');?>">设备及备件销售</a></li>
+                            <li><a href="<?php echo U(MODULE_NAME.'/Index/portfolio');?>">轧辊类</a></li>
+                            <li><a href="<?php echo U(MODULE_NAME.'/Index/portfolio');?>">轴类</a></li>
                         </ul>
                     </li>
                     <li><a href="<?php echo U(MODULE_NAME.'/Index/portfolio');?>">公司概况</a></li>
                     <li><a href="<?php echo U(MODULE_NAME.'/Index/blog');?>">实例分析</a></li>
-                    <li><a href="<?php echo U(MODULE_NAME.'/Index/blog');?>">人才招聘</a></li>
-                    <li><a href="<?php echo U(MODULE_NAME.'/Index/blog');?>">质量体系</a></li>
+                    <li><a href="<?php echo U(MODULE_NAME.'/Index/typography');?>">人才招聘</a></li>
+                    <li><a href="<?php echo U(MODULE_NAME.'/Index/components');?>">质量体系</a></li>
                     <li class="active"><a href="<?php echo U(MODULE_NAME.'/Index/contact');?>">联系我们</a></li>
                 </ul>
             </div>
@@ -64,6 +67,15 @@
 </header>
 	<!-- end header -->
 	<section id="featured">
+		<div class="col-lg-2 col-lg-offset-10">
+			<!--<aside class="right-sidebar">-->
+				<div class="widget">
+					<form class="form-search">
+						<input class="form-control" type="text" placeholder="Search..">
+					</form>
+				</div>
+			<!--</aside>-->
+		</div>
 	<!-- start slider -->
 	<div class="container">
 		<div class="row">
@@ -111,7 +123,7 @@
 			<div class="col-lg-12">
 				<div class="big-cta">
 					<div class="cta-text">
-						<h2><span>新旺激光技术有限公司</span> CHONGQINGXINWANGLASER.TECHNOLOGY CO.LTD</h2>
+						<h2><span>成都新旺激光</span> CHENGDUXINWANGLASER.TECHNOLOGY CO.LTD</h2>
 					</div>
 				</div>
 			</div>
@@ -270,7 +282,7 @@
                 <div class="widget">
                     <h5 class="widgetheading">加入我们</h5>
                     <address>
-                        <strong>新旺激光技术有限公司</strong><br>
+                        <strong>成都新旺激光技术有限公司</strong><br>
                         邮编：401329 <br>
                         重庆市九龙坡区白市驿镇海龙工业园区</address>
                     <p>
@@ -284,17 +296,16 @@
                 <div class="widget">
                     <h5 class="widgetheading">Pages</h5>
                     <ul class="link-list">
-                        <li><a href="#">Press release</a></li>
-                        <li><a href="#">Terms and conditions</a></li>
-                        <li><a href="#">Privacy policy</a></li>
-                        <li><a href="#">Career center</a></li>
-                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">案例与条约</a></li>
+                        <li><a href="#">个人权利</a></li>
+                        <li><a href="#">事业中心</a></li>
+                        <li><a href="#">联系我们</a></li>
                     </ul>
                 </div>
             </div>
             <div class="col-lg-3">
                 <div class="widget">
-                    <h5 class="widgetheading">Latest posts</h5>
+                    <h5 class="widgetheading">最新投稿</h5>
                     <ul class="link-list">
                         <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
                         <li><a href="#">Pellentesque et pulvinar enim. Quisque at tempor ligula</a></li>
@@ -320,7 +331,7 @@
                 <div class="col-lg-6">
                     <div class="copyright">
                         <p>
-                            <span>&copy; 新旺激光 2016 All right reserved </span> <a href="http://www.baidu.com/"></a>
+                            <span>&copy; 成都新旺激光 2016 All right reserved </span> <a href="http://www.baidu.com/"></a>
                         </p>
                         <!--
                             All links in the footer should remain intact.
