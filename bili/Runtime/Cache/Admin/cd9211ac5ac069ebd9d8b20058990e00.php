@@ -19,9 +19,9 @@
     <link href="/Moderna/bili/Admin/View/Public/css/elegant-icons-style.css" rel="stylesheet" />
     <link href="/Moderna/bili/Admin/View/Public/css/font-awesome.min.css" rel="stylesheet" />
     <!-- date picker -->
-    
+
     <!-- color picker -->
-    
+
     <!-- Custom styles -->
     <link href="/Moderna/bili/Admin/View/Public/css/style.css" rel="stylesheet">
     <link href="/Moderna/bili/Admin/View/Public/css/style-responsive.css" rel="stylesheet" />
@@ -31,13 +31,15 @@
       <script src="/Moderna/bili/Admin/View/Public/js/html5shiv.js"></script>
       <script src="/Moderna/bili/Admin/View/Public/js/respond.min.js"></script>
       <script src="/Moderna/bili/Admin/View/Public/js/lte-ie7.js"></script>
+
+
     <![endif]-->
+
 
   </head>
   <body>
 
   <!-- container section start -->
-
   <section id="container" class="">
       <header class="header dark-bg">
     <div class="toggle-nav">
@@ -370,11 +372,11 @@
           <section class="wrapper">
               <div class="row">
                   <div class="col-lg-12">
-                      <h3 class="page-header"><i class="fa fa-files-o"></i> Form Validation</h3>
+                      <h3 class="page-header"><i class="fa fa-files-o"></i> /Moderna/bili/Admin/View/Public添加产品</h3>
                       <ol class="breadcrumb">
-                          <li><i class="fa fa-home"></i><a href="add.html">Home</a></li>
-                          <li><i class="icon_document_alt"></i>Forms</li>
-                          <li><i class="fa fa-files-o"></i>Form Validation</li>
+                          <li><i class="fa fa-home"></i><a href="add.html">主页</a></li>
+                          <li><i class="icon_document_alt"></i>栏目管理</li>
+                          <li><i class="fa fa-files-o"></i>添加产品</li>
                       </ol>
                   </div>
               </div>
@@ -383,62 +385,63 @@
                   <div class="col-lg-12">
                       <section class="panel">
                           <header class="panel-heading">
-                              Advanced Form validations
+                              Basic Forms
                           </header>
                           <div class="panel-body">
-                              <div class="form quick-post">
-                                  <!-- Edit profile form (not working)-->
-                                  <form class="form-horizontal" method="post" action="{U:{MODULE_NAME.'/Category/addCategory'}}">
-                                      <!-- Title -->
-                                      <div class="form-group">
-                                          <label class="control-label col-lg-2" for="title">Title</label>
-                                          <div class="col-lg-10">
-                                              <input type="text" class="form-control" id="title">
-                                          </div>
-                                      </div>
-                                      <!-- Content -->
-                                      <div class="form-group">
-                                          <label class="control-label col-lg-2" for="content">Content</label>
-                                          <div class="col-lg-10">
-                                              <textarea class="form-control" id="content"></textarea>
-                                          </div>
-                                      </div>
-                                      <!-- Cateogry -->
-                                      <div class="form-group">
-                                          <label class="control-label col-lg-2">Category</label>
-                                          <div class="col-lg-10">
-                                              <select class="form-control">
-                                                  <option value="">- Choose Cateogry -</option>
-                                                  <option value="1">General</option>
-                                                  <option value="2">News</option>
-                                                  <option value="3">Media</option>
-                                                  <option value="4">Funny</option>
-                                              </select>
-                                          </div>
-                                      </div>
-                                      <!-- Tags -->
-                                      <div class="form-group">
-                                          <label class="control-label col-lg-2" for="tags">Tags</label>
-                                          <div class="col-lg-10">
-                                              <input type="text" class="form-control" id="tags">
-                                          </div>
-                                      </div>
+                              <form role="form" method="post" action="<?php echo U(MODULE_NAME.'/Product/addRun');?>" enctype="multipart/form-data">
+                                  <div class="form-group">
+                                      <label for="productName">产品名称</label>
+                                      <input type="text" class="form-control" id="productName" name="productName" placeholder="Product Name">
+                                  </div>
+                                  <div class="form-group">
+                                      <label for="picTitle">图片title</label>
+                                      <input type="text" class="form-control" id="picTitle" name="picTitle" placeholder="Pic Title">
+                                  </div>
+                                  <div class="form-group">
+                                      <label for="picAlt">图片alt</label>
+                                      <input type="text" class="form-control" id="picAlt"  name="picAlt" placeholder="Pic Alt">
+                                  </div>
+                                  <div class="form-group">
+                                      <label for="dataType">图片分组标识符</label>
+                                      <select class="form-control m-bot15" name="dataType" id="dataType">
+                                          <option value="cl">齿轮类</option>
+                                          <option value="dd">电动机发电机轴激光修复类</option>
+                                          <option value="fb">非标类</option>
+                                          <option value="mj">模具类</option>
+                                          <option value="pm">平面类</option>
+                                          <option value="sb">设备及备件销售</option>
+                                          <option value="zg">轧辊类</option>
+                                          <option value="zz">轴类</option>
+                                      </select>
+                                  </div>
 
-                                      <!-- Buttons -->
+                                  <div class="form-group">
+                                      <label for="pic">图片名称</label>
+                                      <input type="file" id="pic"  name="pic" >
+                                      <p class="help-block">Example block-level help text here.</p>
+                                  </div>
+
+                                  <div>
                                       <div class="form-group">
-                                          <!-- Buttons -->
-                                          <div class="col-lg-offset-2 col-lg-9">
-                                              <button type="submit" class="btn btn-primary">Publish</button>
-                                              <button type="submit" class="btn btn-danger">Save Draft</button>
-                                              <button type="reset" class="btn btn-default">Reset</button>
-                                          </div>
+                                          <label for="cid">栏目类型</label>
+                                      <select class="form-control m-bot15" name="cid" id="cid">
+                                          <option value="1">齿轮类</option>
+                                          <option value="2">电动机发电机轴激光修复类</option>
+                                          <option value="3">非标类</option>
+                                          <option value="4">模具类</option>
+                                          <option value="5">平面类</option>
+                                          <option value="6">设备及备件销售</option>
+                                          <option value="7">轧辊类</option>
+                                          <option value="8">轴类</option>
+                                      </select>
                                       </div>
-                                  </form>
-                              </div>
+                                  </div>
+                                  <button type="submit" class="btn btn-primary">提交</button>
+                              </form>
+
                           </div>
                       </section>
                   </div>
-              </div>
               <!-- page end-->
           </section>
       </section>
@@ -446,7 +449,7 @@
   </section>
   <!-- container section end -->
     <!-- javascripts -->
-    <script src="/Moderna/bili/Admin/View/Public/js/jquery.js"></script>
+  <script src="/Moderna/bili/Admin/View/Public/js/jquery.js"></script>
     <script src="/Moderna/bili/Admin/View/Public/js/bootstrap.min.js"></script>
     <!-- nice scroll -->
     <script src="/Moderna/bili/Admin/View/Public/js/jquery.scrollTo.min.js"></script>

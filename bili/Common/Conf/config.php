@@ -25,6 +25,6 @@ return array(
     'DB_SQL_LOG'            => false, // SQL执行日志记录
 
 
-
+  // 'TMPL_EXCEPTION_FILE' => APP_PATH.'/Public/404.html',
 
 );

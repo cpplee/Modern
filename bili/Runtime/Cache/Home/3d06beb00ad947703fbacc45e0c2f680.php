@@ -37,19 +37,21 @@
                 </button>
                 <a class="navbar-brand" href="../index.html"><span>成都新旺激光</span>技术有限公司</a>
             </div>
+
             <div class="navbar-collapse collapse ">
                 <ul class="nav navbar-nav">
                     <li><a href="<?php echo U(MODULE_NAME.'/Index/index');?>">主页</a></li>
                     <li class="dropdown ">
                         <a href="#" class="dropdown-toggle " data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">产品中心<b class=" icon-angle-down"></b></a>
                         <ul class="dropdown-menu">
-                            <li><a href="<?php echo U(MODULE_NAME.'/Index/portfolio');?>">模具类</a></li>
-                            <li><a href="<?php echo U(MODULE_NAME.'/Index/portfolio');?>">轴类</a></li>
                             <li><a href="<?php echo U(MODULE_NAME.'/Index/portfolio');?>">齿轮类</a></li>
-                            <li><a href="<?php echo U(MODULE_NAME.'/Index/portfolio');?>">压辊类</a></li>
-                            <li><a href="<?php echo U(MODULE_NAME.'/Index/portfolio');?>">平面类</a></li>
+                            <li><a href="<?php echo U(MODULE_NAME.'/Index/portfolio');?>">电动机发电机轴激光修复类</a></li>
                             <li><a href="<?php echo U(MODULE_NAME.'/Index/portfolio');?>">非标类</a></li>
-                            <li><a href="<?php echo U(MODULE_NAME.'/Index/portfolio');?>">激光设备销售</a></li>
+                            <li><a href="<?php echo U(MODULE_NAME.'/Index/portfolio');?>">模具类</a></li>
+                            <li><a href="<?php echo U(MODULE_NAME.'/Index/portfolio');?>">平面类</a></li>
+                            <li><a href="<?php echo U(MODULE_NAME.'/Index/portfolio');?>">设备及备件销售</a></li>
+                            <li><a href="<?php echo U(MODULE_NAME.'/Index/portfolio');?>">轧辊类</a></li>
+                            <li><a href="<?php echo U(MODULE_NAME.'/Index/portfolio');?>">轴类</a></li>
                         </ul>
                     </li>
                     <li><a href="<?php echo U(MODULE_NAME.'/Index/portfolio');?>">公司概况</a></li>

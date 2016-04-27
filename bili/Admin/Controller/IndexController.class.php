@@ -9,9 +9,11 @@ class IndexController extends Controller {
       //  p(U('index'));
 
 
+//P(__ROOT__.'/bili/Public/404.html');
 
+  //p(APP_PATH);
 
-
+//        if(!IS_POST) redirect(__ROOT__.'/bili/Public/404.html');
 
 
         $this->display();

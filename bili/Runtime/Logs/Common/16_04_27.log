@@ -1,0 +1,6 @@
+[ 2016-04-27T12:12:24+08:00 ] 192.168.1.1 /Moderna/index.php/Ad,om/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Ad,om
+

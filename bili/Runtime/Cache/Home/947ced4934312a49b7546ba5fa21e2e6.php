@@ -38,19 +38,21 @@
                 </button>
                 <a class="navbar-brand" href="../index.html"><span>成都新旺激光</span>技术有限公司</a>
             </div>
+
             <div class="navbar-collapse collapse ">
                 <ul class="nav navbar-nav">
                     <li><a href="<?php echo U(MODULE_NAME.'/Index/index');?>">主页</a></li>
                     <li class="dropdown ">
                         <a href="#" class="dropdown-toggle " data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">产品中心<b class=" icon-angle-down"></b></a>
                         <ul class="dropdown-menu">
-                            <li><a href="<?php echo U(MODULE_NAME.'/Index/portfolio');?>">模具类</a></li>
-                            <li><a href="<?php echo U(MODULE_NAME.'/Index/portfolio');?>">轴类</a></li>
                             <li><a href="<?php echo U(MODULE_NAME.'/Index/portfolio');?>">齿轮类</a></li>
-                            <li><a href="<?php echo U(MODULE_NAME.'/Index/portfolio');?>">压辊类</a></li>
-                            <li><a href="<?php echo U(MODULE_NAME.'/Index/portfolio');?>">平面类</a></li>
+                            <li><a href="<?php echo U(MODULE_NAME.'/Index/portfolio');?>">电动机发电机轴激光修复类</a></li>
                             <li><a href="<?php echo U(MODULE_NAME.'/Index/portfolio');?>">非标类</a></li>
-                            <li><a href="<?php echo U(MODULE_NAME.'/Index/portfolio');?>">激光设备销售</a></li>
+                            <li><a href="<?php echo U(MODULE_NAME.'/Index/portfolio');?>">模具类</a></li>
+                            <li><a href="<?php echo U(MODULE_NAME.'/Index/portfolio');?>">平面类</a></li>
+                            <li><a href="<?php echo U(MODULE_NAME.'/Index/portfolio');?>">设备及备件销售</a></li>
+                            <li><a href="<?php echo U(MODULE_NAME.'/Index/portfolio');?>">轧辊类</a></li>
+                            <li><a href="<?php echo U(MODULE_NAME.'/Index/portfolio');?>">轴类</a></li>
                         </ul>
                     </li>
                     <li><a href="<?php echo U(MODULE_NAME.'/Index/portfolio');?>">公司概况</a></li>
@@ -83,7 +85,7 @@
 				<ul class="portfolio-categ filter">
 					<li class="all active"><a href="#">All</a></li>
 					<li class="web"><a href="#" title="">Web design</a></li>
-					<li class="icon"><a href="#" title="">Icons</a></li>
+					<li class="1"><a href="#" title="">1</a></li>
 					<li class="graphic"><a href="#" title="">Graphic design</a></li>
 				</ul>
 				<div class="clearfix">
@@ -103,7 +105,7 @@
 						</li>
 						<!-- End Item Project -->
 						<!-- Item Project and Filter Name -->
-						<li class="item-thumbs col-lg-3 design" data-id="id-1" data-type="icon">
+						<li class="item-thumbs col-lg-3 design" data-id="id-1" data-type="1">
 						<!-- Fancybox - Gallery Enabled - Title - Full Image -->
 						<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Portfolio name" href="/Moderna/bili/Home/View/Public/img/works/2.jpg">
 						<span class="overlay-img"></span>
@@ -147,7 +149,7 @@
 						</li>
 						<!-- End Item Project -->
 						<!-- Item Project and Filter Name -->
-						<li class="item-thumbs col-lg-3 photography" data-id="id-5" data-type="icon">
+						<li class="item-thumbs col-lg-3 photography" data-id="id-5" data-type="1">
 						<!-- Fancybox - Gallery Enabled - Title - Full Image -->
 						<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Portfolio name" href="/Moderna/bili/Home/View/Public/img/works/6.jpg">
 						<span class="overlay-img"></span>
