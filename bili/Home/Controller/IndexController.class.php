@@ -1,10 +1,20 @@
 <?php
 namespace Home\Controller;
+
+
+
+
 use Think\Controller;
-class IndexController extends Controller {
+
+class IndexController extends ComController{
+
+
+
 
     public function index(){
 
+
+        $this->listCate();
         $this->display();
     }
 
@@ -14,19 +24,13 @@ class IndexController extends Controller {
         $this->display();
     }
 
-    public function blog(){
-        $this->display();
-    }
+
 
     public function components(){
 
         $this->display();
     }
 
-    public function portfolio(){
-
-        $this->display();
-    }
 
     public function pricingbox(){
         $this->display();

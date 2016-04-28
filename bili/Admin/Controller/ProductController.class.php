@@ -69,4 +69,30 @@ class ProductController extends Controller
     }
 
 
+    public function deletePic(){
+
+          $id = I('id');
+
+        $oldpic = M('product')->where(array('id'=>$id))->find();
+        $picurl = $oldpic['pic'];
+        if($picurl){
+        //    p(__ROOT__.$picurl);
+      //  p(__FILE__);
+       // $picstr = dirname(dirname(dirname(dirname(__FILE__))));
+        //p($picurl);
+            @unlink('.'.$picurl);
+            if($result=M('product')->where(array('id'=>$id))->delete()){
+                $this->success('删除成功');
+            }else{
+                $this->error('删除失败');
+            }
+
+
+        }else{
+            $this->error('图片不存在');
+        }
+
+
+  }
+
 }

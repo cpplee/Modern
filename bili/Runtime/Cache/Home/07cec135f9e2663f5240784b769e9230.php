@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>雷森激光技术有限公司</title>
+<title>成都新旺技术有限公司</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="description" content="" />
 <meta name="author" content="http://bootstraptaste.com" />
@@ -16,21 +16,12 @@
 
 <!-- Theme skin -->
 <link href="/Moderna/bili/Home/View/Public/Css/skins/default.css" rel="stylesheet" />
-	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=7DO66EoIBNM9MGRCQSjDkxtRduIOiS6Y"></script>
+
 <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
 <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-	<style type="text/css">
-		.allmap {
-			width: 100%;
-			height: 500px;
-			overflow: hidden;
-			margin:0;
-			font-family:"微软雅黑";
-		}
-	</style>
 </head>
 <body>
 <div id="wrapper">
@@ -44,7 +35,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="../index.html"><span>成都新旺激光</span>技术有限公司</a>
+                <a class="navbar-brand" href=""><span>成都新旺激光</span>技术有限公司</a>
             </div>
 
             <div class="navbar-collapse collapse ">
@@ -59,76 +50,87 @@
 
                     </li>
                     <li><a href="<?php echo U(MODULE_NAME.'/Product/index');?>">实例分析</a></li>
-                    <li><a href="<?php echo U(MODULE_NAME.'/Index/blog');?>">公司概况</a></li>
-                    <li><a href="<?php echo U(MODULE_NAME.'/Index/typography');?>">人才招聘</a></li>
-                    <li><a href="<?php echo U(MODULE_NAME.'/Index/components');?>">质量体系</a></li>
-                    <li class="active"><a href="<?php echo U(MODULE_NAME.'/Index/contact');?>">联系我们</a></li>
+                    <li><a href="<?php echo U(MODULE_NAME.'/Company/index');?>">公司概况</a></li>
+                    <li><a href="<?php echo U(MODULE_NAME.'/People/index');?>">人才招聘</a></li>
+                    <li><a href="<?php echo U(MODULE_NAME.'/Quality/index');?>">质量体系</a></li>
+                    <li class="active"><a href="<?php echo U(MODULE_NAME.'/Contact/index');?>">联系我们</a></li>
                 </ul>
             </div>
         </div>
     </div>
 </header>
 	<!-- end header -->
-
-
 	<section id="inner-headline">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12">
-				<ul class="breadcrumb">
-					<li><a href="#"><i class="fa fa-home"></i></a><i class="icon-angle-right"></i></li>
-					<li class="active">联系我们</li>
-				</ul>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<ul class="breadcrumb">
+						<li><a href="#"><i class="fa fa-home"></i></a><i class="icon-angle-right"></i></li>
+						<li class="active">质量目标 && 质量方针
+						</li>
+					</ul>
+				</div>
 			</div>
 		</div>
-	</div>
 	</section>
 	<section id="content">
-	<div class="map">
-		<!--<iframe src="">-->
-			<!--<div id="allmap" class="allmap"></div>-->
-		<!--</iframe>-->
-   <div id="allmap" class="allmap"></div>
-	</div>
-
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12">
-				<h4>Get in touch with us by filling <strong>contact form below</strong></h4>
-				<form id="contactform"  class="validateform" name="send-contact">
-					<div id="sendmessage">
-						 Your message has been sent. Thank you!
-					</div>
-					<div class="row">
-						<div class="col-lg-4 field">
-							<input type="text" name="name" placeholder="* Enter your full name" data-rule="maxlen:4" data-msg="Please enter at least 4 chars" />
-							<div class="validation">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8">
+					<article>
+						<div class="post-image">
+							<div class="post-heading">
+								<h3 class="navbar-brand" href="#"><span>新旺激光</span>质量目标</h3>
 							</div>
+							<img src="/Moderna/bili/Home/View/Public/img/dummies/blog/img3.jpg" alt="" />
 						</div>
-						<div class="col-lg-4 field">
-							<input type="text" name="email" placeholder="* Enter your email address" data-rule="email" data-msg="Please enter a valid email" />
-							<div class="validation">
+						<div>
+							<p><span style="color: red;">以顾客为关注焦点</span>：组织依存于其顾客。因此组织应理解顾客当前和未来的需求，满足顾客并争取超越顾客期望。</p>
+							<p><span style="color: red;">领导作用</span>：领导者确立本组织统一的宗旨和方向。他们应该创造并保持使员工能充分参与实现组织目标的内部环境。</p>
+							<p><span style="color: red;">全员参与</span>：各级人员是组织之本，只有他们的充分参与，才能使他们的才干为组织获益。</p>
+							<p><span style="color: red;">过程方法</span>：将相关的活动和资源作为过程进行管理，可以更高效地得到期望的结果。</p>
+							<p><span style="color: red;">管理的系统方法</span>：识别、理解和管理作为体系的相互关联的过程，有助于组织实现其目标的效率和有效性。</p>
+							<p><span style="color: red;">持续改进</span>：组织总体业绩的持续改进应是组织的一个永恒的目标。</p>
+							<p><span style="color: red;">基于事实的决策方法</span>：有效决策是建立在数据和信息分析基础上。</p>
+							<p><span style="color: red;">互利的供方关系</span>：组织与其供方是相互依存的，互利的关系可增强双方创造价值的能力。</p>
+						</div>
+						<div class="bottom-article">
+							<ul class="meta-post">
+								<li><i class="icon-calendar"></i><a href="#">公司简介</a></li>
+								<li><i class="icon-user"></i><a href="#"> 成都新旺激光</a></li>
+								<li><i class="icon-folder-open"></i><a href="#"> 质量目标</a></li>
+							</ul>
+						</div>
+					</article>
+				</div>
+				<div class="col-lg-4">
+					<article>
+						<div class="post-image">
+							<div class="post-heading">
+								<h3 class="navbar-brand" href="#">质量方针</h3>
 							</div>
+							<img src="/Moderna/bili/Home/View/Public/img/dummies/blog/img2.jpg" alt="" />
 						</div>
-						<div class="col-lg-4 field">
-							<input type="text" name="subject" placeholder="Enter your subject" data-rule="maxlen:4" data-msg="Please enter at least 4 chars" />
-							<div class="validation">
-							</div>
+						<div>
+							以顾客为关注焦点：组织依存于其顾客。因此组织应理解顾客当前和未来的需求，满足顾客并争取超越顾客期望。
+							领导作用：领导者确立本组织统一的宗旨和方向。他们应该创造并保持使员工能充分参与实现组织目标的内部环境。
+							全员参与：各级人员是组织之本，只有他们的充分参与，才能使他们的才干为组织获益。
+							过程方法：将相关的活动和资源作为过程进行管理，可以更高效地得到期望的结果。
+							管理的系统方法：识别、理解和管理作为体系的相互关联的过程，有助于组织实现其目标的效率和有效性。
+							持续改进：组织总体业绩的持续改进应是组织的一个永恒的目标。基于事实的决策方法：有效决策是建立在数据和信息分析基础上。
+							互利的供方关系：组织与其供方是相互依存的，互利的关系可增强双方创造价值的能力。
 						</div>
-						<div class="col-lg-12 margintop10 field">
-							<textarea rows="12" name="message" class="input-block-level" placeholder="* Your message here..." data-rule="required" data-msg="Please write something"></textarea>
-							<div class="validation">
-							</div>
-							<p>
-								<button class="btn btn-theme margintop10 pull-left" type="submit">Submit message</button>
-								<span class="pull-right margintop20">* Please fill all required form field, thanks!</span>
-							</p>
+						<div class="bottom-article">
+							<ul class="meta-post">
+								<li><i class="icon-calendar"></i><a href="#"> 公司简介</a></li>
+								<li><i class="icon-user"></i><a href="#"> 成都新旺激光</a></li>
+								<li><i class="icon-folder-open"></i><a href="#"> 质量方针</a></li>
+							</ul>
 						</div>
-					</div>
-				</form>
+					</article>
+				</div>
 			</div>
 		</div>
-	</div>
 	</section>
 	<footer>
     <div class="container">
@@ -162,15 +164,15 @@
                 <div class="widget">
                     <h5 class="widgetheading">最新投稿</h5>
                     <ul class="link-list">
-                        <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
-                        <li><a href="#">Pellentesque et pulvinar enim. Quisque at tempor ligula</a></li>
-                        <li><a href="#">Natus error sit voluptatem accusantium doloremque</a></li>
+                        <li><a href="#">人才招聘</a></li>
+                        <li><a href="#">公司规划</a></li>
+                        <li><a href="#">前景展望</a></li>
                     </ul>
                 </div>
             </div>
             <div class="col-lg-3">
                 <div class="widget">
-                    <h5 class="widgetheading">Flickr photostream</h5>
+                    <h5 class="widgetheading">联系我们</h5>
                     <div class="flickr_badge">
                         <!--<script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=8&amp;display=random&amp;size=s&amp;layout=x&amp;source=user&amp;user=34178660@N03"></script>-->
                     </div>
@@ -186,7 +188,7 @@
                 <div class="col-lg-6">
                     <div class="copyright">
                         <p>
-                            <span>&copy; 成都新旺激光 2016 All right reserved </span> <a href="http://www.baidu.com/"></a>
+                            <span>&copy; 成都新旺激光 2016 All right reserved </span>
                         </p>
                         <!--
                             All links in the footer should remain intact.
@@ -208,7 +210,6 @@
         </div>
     </div>
 </footer>
-
 </div>
 <a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
 <!-- javascript
@@ -225,15 +226,5 @@
 <script src="/Moderna/bili/Home/View/Public/Js/jquery.flexslider.js"></script>
 <script src="/Moderna/bili/Home/View/Public/Js/animate.js"></script>
 <script src="/Moderna/bili/Home/View/Public/Js/custom.js"></script>
-<script src="/Moderna/bili/Home/View/Public/Js/validate.js"></script>
-
-<script type="text/javascript">
-	// 百度地图API功能
-	var map = new BMap.Map("allmap");    // 创建Map实例
-	map.centerAndZoom(new BMap.Point(104.06792346, 30.67994285),14);  // 初始化地图,设置中心点坐标和地图级别
-	map.addControl(new BMap.MapTypeControl());   //添加地图类型控件
-	map.setCurrentCity("北京");          // 设置地图显示的城市 此项是必须设置的
-	map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放
-</script>
 </body>
 </html>

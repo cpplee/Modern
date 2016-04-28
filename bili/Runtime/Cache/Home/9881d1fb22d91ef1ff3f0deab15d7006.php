@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Moderna - Bootstrap 3 flat corporate template</title>
+<title>成都新旺激光技术有限公司</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="description" content="" />
 <meta name="author" content="http://bootstraptaste.com" />
@@ -15,7 +15,7 @@
 
 
 <!-- Theme skin -->
-<link href="../Public//Moderna/bili/Home/View/Public/Css/skins/default.css" rel="stylesheet" />
+<link href="/Moderna/bili/Home/View/Public/Css/skins/default.css" rel="stylesheet" />
 
 <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
 <!--[if lt IE 9]>
@@ -35,7 +35,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="../index.html"><span>成都新旺激光</span>技术有限公司</a>
+                <a class="navbar-brand" href=""><span>成都新旺激光</span>技术有限公司</a>
             </div>
 
             <div class="navbar-collapse collapse ">
@@ -50,10 +50,10 @@
 
                     </li>
                     <li><a href="<?php echo U(MODULE_NAME.'/Product/index');?>">实例分析</a></li>
-                    <li><a href="<?php echo U(MODULE_NAME.'/Index/blog');?>">公司概况</a></li>
-                    <li><a href="<?php echo U(MODULE_NAME.'/Index/typography');?>">人才招聘</a></li>
-                    <li><a href="<?php echo U(MODULE_NAME.'/Index/components');?>">质量体系</a></li>
-                    <li class="active"><a href="<?php echo U(MODULE_NAME.'/Index/contact');?>">联系我们</a></li>
+                    <li><a href="<?php echo U(MODULE_NAME.'/Company/index');?>">公司概况</a></li>
+                    <li><a href="<?php echo U(MODULE_NAME.'/People/index');?>">人才招聘</a></li>
+                    <li><a href="<?php echo U(MODULE_NAME.'/Quality/index');?>">质量体系</a></li>
+                    <li class="active"><a href="<?php echo U(MODULE_NAME.'/Contact/index');?>">联系我们</a></li>
                 </ul>
             </div>
         </div>
@@ -66,7 +66,7 @@
 			<div class="col-lg-12">
 				<ul class="breadcrumb">
 					<li><a href="#"><i class="fa fa-home"></i></a><i class="icon-angle-right"></i></li>
-					<li class="active">Blog</li>
+					<li class="active">公司简介</li>
 				</ul>
 			</div>
 		</div>
@@ -79,105 +79,29 @@
 				<article>
 						<div class="post-image">
 							<div class="post-heading">
-								<h3><a href="#">This is an example of standard post format</a></h3>
+								<h3 class="navbar-brand" href="#"><span>成都新旺激光</span>技术有限公司</h3>
 							</div>
 							<img src="/Moderna/bili/Home/View/Public/img/dummies/blog/img1.jpg" alt="" />
 						</div>
-						<p>
-							 Qui ut ceteros comprehensam. Cu eos sale sanctus eligendi, id ius elitr saperet, ocurreret pertinacia pri an. No mei nibh consectetuer, semper laoreet perfecto ad qui, est rebum nulla argumentum ei. Fierent adipisci iracundia est ei, usu timeam persius ea. Usu ea justo malis, pri quando everti electram ei, ex homero omittam salutatus sed.
-						</p>
-						<div class="bottom-article">
-							<ul class="meta-post">
-								<li><i class="icon-calendar"></i><a href="#"> Mar 23, 2013</a></li>
-								<li><i class="icon-user"></i><a href="#"> Admin</a></li>
-								<li><i class="icon-folder-open"></i><a href="#"> Blog</a></li>
-								<li><i class="icon-comments"></i><a href="#">4 Comments</a></li>
-							</ul>
-							<a href="#" class="pull-right">Continue reading <i class="icon-angle-right"></i></a>
-						</div>
-				</article>
-				<article>
-						<div class="post-slider">
-							<div class="post-heading">
-								<h3><a href="#">This is an example of slider post format</a></h3>
-							</div>
-							<!-- start flexslider -->
-							<div id="post-slider" class="flexslider">
-								<ul class="slides">
-									<li>
-									<img src="/Moderna/bili/Home/View/Public/img/dummies/blog/img1.jpg" alt="" />
-									</li>
-									<li>
-									<img src="/Moderna/bili/Home/View/Public/img/dummies/blog/img2.jpg" alt="" />
-									</li>
-									<li>
-									<img src="/Moderna/bili/Home/View/Public/img/dummies/blog/img3.jpg" alt="" />
-									</li>
-								</ul>
-							</div>
-							<!-- end flexslider -->
-						</div>
-						<p>
-							 Qui ut ceteros comprehensam. Cu eos sale sanctus eligendi, id ius elitr saperet, ocurreret pertinacia pri an. No mei nibh consectetuer, semper laoreet perfecto ad qui, est rebum nulla argumentum ei. Fierent adipisci iracundia est ei, usu timeam persius ea. Usu ea justo malis, pri quando everti electram ei, ex homero omittam salutatus sed.
-						</p>
-						<div class="bottom-article">
-							<ul class="meta-post">
-								<li><i class="icon-calendar"></i><a href="#"> Mar 23, 2013</a></li>
-								<li><i class="icon-user"></i><a href="#"> Admin</a></li>
-								<li><i class="icon-folder-open"></i><a href="#"> Blog</a></li>
-								<li><i class="icon-comments"></i><a href="#">4 Comments</a></li>
-							</ul>
-							<a href="#" class="pull-right">Continue reading <i class="icon-angle-right"></i></a>
-						</div>
-				</article>
-				<article>
-						<div class="post-quote">
-							<div class="post-heading">
-								<h3><a href="#">Nice example of quote post format below</a></h3>
-							</div>
-							<blockquote>
-								<i class="icon-quote-left"></i> Lorem ipsum dolor sit amet, ei quod constituto qui. Summo labores expetendis ad quo, lorem luptatum et vis. No qui vidisse signiferumque...
-							</blockquote>
+						<div>
+							<p><span style="color:red;">成都新旺激光技术有限公司</span>专业从事各种轴类、模具、齿轮、轧辊、平面体、非标件等的激光表面淬火、激光熔覆修复和机械尺寸超公差修复。</p>
+							<p>公司是专业的激光技术研发与应用、激光设备仪器设计生产和销售的高科技实体企业。公司地址在： <span style="color:red;">重庆市九龙坡区白市驿镇海龙工业园区</span>。</p>
+							<p>公司本着科技创新的精神，在激光表面工程技术开发、激光成套设备的研发、激光技术的产业化等方面都取得了重大进展。</p>
+							<p>公司的技术和产品在冶金、模具、汽车、化工、石油、电力、水泥、机械、矿山、船舶和环境保护等行业都拥有广泛的市场。</p>
+							<p>公司现已形成技术系列化、生产专业化、产品多样化、销售网络化的经营格局，并立足于西南地区发展壮大。</p>
+							<p>公司始终坚持技术进步，深入研发激光器、光束处理系统、超细合金粉和激光工艺等核心技术，为多个行业提供成熟先进的解决方案，并不断取得突破性成果，其中齿面激光处理技术、轧辊激光技术为国内领先水平。</p>
+							<p>尤其是模具表面激光淬火技术解决了汽车模具制造业中存在的选材与传统模具表面热处理技术瓶颈问题,大大提高了模具的使用寿命，降低了制造成本。</p>
+							<p>这是模具制造技术的创新，尤其对我国汽车覆盖件模具的国产化有突破性意义。</p>
+							<p>激光已成为工业战线的利器，成熟的激光技术已被公认为先进、实用、具有产业高附加值等特点的高科技技术。先用激光，先受益。</p>
 						</div>
 						<div class="bottom-article">
 							<ul class="meta-post">
-								<li><i class="icon-calendar"></i><a href="#"> Mar 23, 2013</a></li>
-								<li><i class="icon-user"></i><a href="#"> Admin</a></li>
-								<li><i class="icon-folder-open"></i><a href="#"> Blog</a></li>
-								<li><i class="icon-comments"></i><a href="#">4 Comments</a></li>
+								<li><i class="icon-calendar"></i><a href="#"> 专业</a></li>
+								<li><i class="icon-user"></i><a href="#"> 成都新旺激光</a></li>
+								<li><i class="icon-folder-open"></i><a href="#"> 公司简介</a></li>
 							</ul>
-							<a href="#" class="pull-right">Continue reading <i class="icon-angle-right"></i></a>
 						</div>
 				</article>
-				<article>
-						<div class="post-video">
-							<div class="post-heading">
-								<h3><a href="#">Amazing video post format here</a></h3>
-							</div>
-							<div class="video-container">
-								<!--<iframe src="http://player.vimeo.com/video/30585464?title=0&amp;byline=0">-->
-								</iframe>
-							</div>
-						</div>
-						<p>
-							 Qui ut ceteros comprehensam. Cu eos sale sanctus eligendi, id ius elitr saperet, ocurreret pertinacia pri an. No mei nibh consectetuer, semper laoreet perfecto ad qui, est rebum nulla argumentum ei. Fierent adipisci iracundia est ei, usu timeam persius ea. Usu ea justo malis, pri quando everti electram ei.
-						</p>
-						<div class="bottom-article">
-							<ul class="meta-post">
-								<li><i class="icon-calendar"></i><a href="#"> Mar 23, 2013</a></li>
-								<li><i class="icon-user"></i><a href="#"> Admin</a></li>
-								<li><i class="icon-folder-open"></i><a href="#"> Blog</a></li>
-								<li><i class="icon-comments"></i><a href="#">4 Comments</a></li>
-							</ul>
-							<a href="#" class="pull-right">Continue reading <i class="icon-angle-right"></i></a>
-						</div>
-				</article>
-				<div id="pagination">
-					<span class="all">Page 1 of 3</span>
-					<span class="current">1</span>
-					<a href="#" class="inactive">2</a>
-					<a href="#" class="inactive">3</a>
-				</div>
 			</div>
 			<div class="col-lg-4">
 				<aside class="right-sidebar">
@@ -187,50 +111,37 @@
 					</form>
 				</div>
 				<div class="widget">
-					<h5 class="widgetheading">Categories</h5>
+					<h5 class="widgetheading">分类</h5>
 					<ul class="cat">
-						<li><i class="icon-angle-right"></i><a href="#">Web design</a><span> (20)</span></li>
-						<li><i class="icon-angle-right"></i><a href="#">Online business</a><span> (11)</span></li>
-						<li><i class="icon-angle-right"></i><a href="#">Marketing strategy</a><span> (9)</span></li>
-						<li><i class="icon-angle-right"></i><a href="#">Technology</a><span> (12)</span></li>
-						<li><i class="icon-angle-right"></i><a href="#">About finance</a><span> (18)</span></li>
+						<li><i class="icon-angle-right"></i><a href="#">公司信息</a><span> (20)</span></li>
+						<li><i class="icon-angle-right"></i><a href="#">公司产品</a><span> (11)</span></li>
+						<li><i class="icon-angle-right"></i><a href="#">人性化</a><span> (9)</span></li>
+						<li><i class="icon-angle-right"></i><a href="#">专业设备</a><span> (12)</span></li>
+						<li><i class="icon-angle-right"></i><a href="#">服务</a><span> (18)</span></li>
 					</ul>
 				</div>
 				<div class="widget">
-					<h5 class="widgetheading">Latest posts</h5>
+					<h5 class="widgetheading">最新信息</h5>
 					<ul class="recent">
 						<li>
 						<img src="/Moderna/bili/Home/View/Public/img/dummies/blog/65x65/thumb1.jpg" class="pull-left" alt="" />
-						<h6><a href="#">Lorem ipsum dolor sit</a></h6>
+						<h6><a href="#">加入我们</a></h6>
 						<p>
-							 Mazim alienum appellantur eu cu ullum officiis pro pri
+							成都新旺技术有限公司
 						</p>
 						</li>
-						<li>
-						<a href="#"><img src="/Moderna/bili/Home/View/Public/img/dummies/blog/65x65/thumb2.jpg" class="pull-left" alt="" /></a>
-						<h6><a href="#">Maiorum ponderum eum</a></h6>
-						<p>
-							 Mazim alienum appellantur eu cu ullum officiis pro pri
-						</p>
-						</li>
-						<li>
-						<a href="#"><img src="/Moderna/bili/Home/View/Public/img/dummies/blog/65x65/thumb3.jpg" class="pull-left" alt="" /></a>
-						<h6><a href="#">Et mei iusto dolorum</a></h6>
-						<p>
-							 Mazim alienum appellantur eu cu ullum officiis pro pri
-						</p>
-						</li>
+
 					</ul>
 				</div>
 				<div class="widget">
-					<h5 class="widgetheading">Popular tags</h5>
+					<h5 class="widgetheading">流行 标签</h5>
 					<ul class="tags">
-						<li><a href="#">Web design</a></li>
-						<li><a href="#">Trends</a></li>
-						<li><a href="#">Technology</a></li>
-						<li><a href="#">Internet</a></li>
-						<li><a href="#">Tutorial</a></li>
-						<li><a href="#">Development</a></li>
+						<li><a href="#">产品设计</a></li>
+						<li><a href="#">未来</a></li>
+						<li><a href="#">技术</a></li>
+						<li><a href="#">网络</a></li>
+						<li><a href="#">宗旨</a></li>
+						<li><a href="#">发展</a></li>
 					</ul>
 				</div>
 				</aside>
@@ -270,15 +181,15 @@
                 <div class="widget">
                     <h5 class="widgetheading">最新投稿</h5>
                     <ul class="link-list">
-                        <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
-                        <li><a href="#">Pellentesque et pulvinar enim. Quisque at tempor ligula</a></li>
-                        <li><a href="#">Natus error sit voluptatem accusantium doloremque</a></li>
+                        <li><a href="#">人才招聘</a></li>
+                        <li><a href="#">公司规划</a></li>
+                        <li><a href="#">前景展望</a></li>
                     </ul>
                 </div>
             </div>
             <div class="col-lg-3">
                 <div class="widget">
-                    <h5 class="widgetheading">Flickr photostream</h5>
+                    <h5 class="widgetheading">联系我们</h5>
                     <div class="flickr_badge">
                         <!--<script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=8&amp;display=random&amp;size=s&amp;layout=x&amp;source=user&amp;user=34178660@N03"></script>-->
                     </div>
@@ -294,7 +205,7 @@
                 <div class="col-lg-6">
                     <div class="copyright">
                         <p>
-                            <span>&copy; 成都新旺激光 2016 All right reserved </span> <a href="http://www.baidu.com/"></a>
+                            <span>&copy; 成都新旺激光 2016 All right reserved </span>
                         </p>
                         <!--
                             All links in the footer should remain intact.

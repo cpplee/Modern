@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Moderna - Bootstrap 3 flat corporate template</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="" />
+<meta name="author" content="http://bootstraptaste.com" />
+<!-- css -->
+<link href="__CSS__/bootstrap.min.css" rel="stylesheet" />
+<link href="__CSS__/fancybox/jquery.fancybox.css" rel="stylesheet">
+<link href="__CSS__/jcarousel.css" rel="stylesheet" />
+<link href="__CSS__/flexslider.css" rel="stylesheet" />
+<link href="__CSS__/style.css" rel="stylesheet" />
+
+
+<!-- Theme skin -->
+<link href="__CSS__/skins/default.css" rel="stylesheet" />
+
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+<div id="wrapper">
+
+	<!-- start header -->
+	<include file="Common:header"/>
+	<!-- end header -->
+	<section id="inner-headline">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<ul class="breadcrumb">
+					<li><a href="#"><i class="fa fa-home"></i></a><i class="icon-angle-right"></i></li>
+					<li class="active">产品分类 >> {$producthead.name}</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	</section>
+	<section id="content">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<ul class="portfolio-categ filter">
+
+					<li class="{$producthead['datatype']}"><a href="#">{$producthead.name}</a></li>
+
+				</ul>
+				<div class="clearfix">
+				</div>
+				<div class="row">
+					<section id="projects">
+					<ul id="thumbs" class="portfolio">
+						<!-- Item Project and Filter Name -->
+
+                           <foreach  name="product" item="product_v">
+							   <li class="item-thumbs col-lg-3 design" data-id="id-{$product_v.cid}" data-type="{$product_v['datatype']}">
+								   <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+								   <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="{$product_v['pictitle']}" href="__ROOT__{$product_v['pic']}">
+									   <span class="overlay-img"></span>
+									   <span class="overlay-img-thumb font-icon-plus"></span>
+								   </a>
+								   <!-- Thumb Image and Description -->
+								   <img src="__ROOT__{$product_v['pic']}" alt="{$product_v['picalt']}">
+							   </li>
+						   </foreach>
+
+						<!-- End Item Project -->
+					</ul>
+					</section>
+				</div>
+				<div class="text-center">
+					<ul class="pagination ">
+						{$page}
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	</section>
+	<include file="Common:footer"/>
+</div>
+<a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
+<!-- javascript
+    ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="__JS__/jquery.js"></script>
+<script src="__JS__/jquery.easing.1.3.js"></script>
+<script src="__JS__/bootstrap.min.js"></script>
+<script src="__JS__/jquery.fancybox.pack.js"></script>
+<script src="__JS__/jquery.fancybox-media.js"></script>
+<script src="__JS__/google-code-prettify/prettify.js"></script>
+<script src="__JS__/portfolio/jquery.quicksand.js"></script>
+<script src="__JS__/portfolio/setting.js"></script>
+<script src="__JS__/jquery.flexslider.js"></script>
+<script src="__JS__/animate.js"></script>
+<script src="__JS__/custom.js"></script>
+</body>
+</html>

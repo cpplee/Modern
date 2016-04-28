@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Moderna - Bootstrap 3 flat corporate template</title>
+<title>成都新旺技术有限公司</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="description" content="" />
 <meta name="author" content="http://bootstraptaste.com" />
@@ -36,7 +36,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="../index.html"><span>成都新旺激光</span>技术有限公司</a>
+                <a class="navbar-brand" href=""><span>成都新旺激光</span>技术有限公司</a>
             </div>
 
             <div class="navbar-collapse collapse ">
@@ -44,22 +44,17 @@
                     <li><a href="<?php echo U(MODULE_NAME.'/Index/index');?>">主页</a></li>
                     <li class="dropdown ">
                         <a href="#" class="dropdown-toggle " data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">产品中心<b class=" icon-angle-down"></b></a>
+
                         <ul class="dropdown-menu">
-                            <li><a href="<?php echo U(MODULE_NAME.'/Index/portfolio');?>">齿轮类</a></li>
-                            <li><a href="<?php echo U(MODULE_NAME.'/Index/portfolio');?>">电动机发电机轴激光修复类</a></li>
-                            <li><a href="<?php echo U(MODULE_NAME.'/Index/portfolio');?>">非标类</a></li>
-                            <li><a href="<?php echo U(MODULE_NAME.'/Index/portfolio');?>">模具类</a></li>
-                            <li><a href="<?php echo U(MODULE_NAME.'/Index/portfolio');?>">平面类</a></li>
-                            <li><a href="<?php echo U(MODULE_NAME.'/Index/portfolio');?>">设备及备件销售</a></li>
-                            <li><a href="<?php echo U(MODULE_NAME.'/Index/portfolio');?>">轧辊类</a></li>
-                            <li><a href="<?php echo U(MODULE_NAME.'/Index/portfolio');?>">轴类</a></li>
+                            <?php if(is_array($cate)): foreach($cate as $key=>$cate_v): ?><li><a href="<?php echo U(MODULE_NAME.'/Product/productcate',array('id'=>$cate_v['id']));?>"><?php echo ($cate_v["name"]); ?></a></li><?php endforeach; endif; ?>
                         </ul>
+
                     </li>
-                    <li><a href="<?php echo U(MODULE_NAME.'/Index/portfolio');?>">公司概况</a></li>
-                    <li><a href="<?php echo U(MODULE_NAME.'/Index/blog');?>">实例分析</a></li>
-                    <li><a href="<?php echo U(MODULE_NAME.'/Index/typography');?>">人才招聘</a></li>
-                    <li><a href="<?php echo U(MODULE_NAME.'/Index/components');?>">质量体系</a></li>
-                    <li class="active"><a href="<?php echo U(MODULE_NAME.'/Index/contact');?>">联系我们</a></li>
+                    <li><a href="<?php echo U(MODULE_NAME.'/Product/index');?>">实例分析</a></li>
+                    <li><a href="<?php echo U(MODULE_NAME.'/Company/index');?>">公司概况</a></li>
+                    <li><a href="<?php echo U(MODULE_NAME.'/People/index');?>">人才招聘</a></li>
+                    <li><a href="<?php echo U(MODULE_NAME.'/Quality/index');?>">质量体系</a></li>
+                    <li class="active"><a href="<?php echo U(MODULE_NAME.'/Contact/index');?>">联系我们</a></li>
                 </ul>
             </div>
         </div>
@@ -86,24 +81,28 @@
               <li>
                 <img src="/Moderna/bili/Home/View/Public/img/slides/1.jpg" alt="" />
                 <div class="flex-caption">
-                    <h3>Modern Design</h3> 
-					<p>Duis fermentum auctor ligula ac malesuada. Mauris et metus odio, in pulvinar urna</p> 
+                    <h3>加入我们</h3>
+					<p>成都新旺激光技术有限公司</p>
 					<a href="#" class="btn btn-theme">更多了解</a>
                 </div>
               </li>
               <li>
                 <img src="/Moderna/bili/Home/View/Public/img/slides/2.jpg" alt="" />
                 <div class="flex-caption">
-                    <h3>Fully Responsive</h3> 
-					<p>Sodales neque vitae justo sollicitudin aliquet sit amet diam curabitur sed fermentum.</p> 
+                    <h3>加入我们</h3>
+					<p>邮编：401329<br>
+						重庆市九龙坡区白市驿镇海龙工业园区</p>
 					<a href="#" class="btn btn-theme">更多了解</a>
                 </div>
               </li>
               <li>
                 <img src="/Moderna/bili/Home/View/Public/img/slides/3.jpg" alt="" />
                 <div class="flex-caption">
-                    <h3>Clean & Fast</h3> 
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit donec mer lacinia.</p> 
+                    <h3>加入我们</h3>
+					<p> <i class="icon-phone"></i> (电话) 13330219628 <br>
+						<i class="icon-phone"></i> (传真) 023-65710879 <br>
+						<i class="icon-envelope-alt"></i> (邮箱) xdxwjs@163.com
+					</p>
 					<a href="#" class="btn btn-theme">更多了解</a>
                 </div>
               </li>
@@ -138,12 +137,12 @@
 					<div class="col-lg-3">
 						<div class="box">
 							<div class="box-gray aligncenter">
-								<h4>Fully responsive</h4>
+								<h4>公司简介</h4>
 								<div class="icon">
 								<i class="fa fa-desktop fa-3x"></i>
 								</div>
 								<p>
-								 Voluptatem accusantium doloremque laudantium sprea totam rem aperiam.
+									公司简介
 								</p>
 									
 							</div>
@@ -155,12 +154,12 @@
 					<div class="col-lg-3">
 						<div class="box">
 							<div class="box-gray aligncenter">
-								<h4>Modern Style</h4>
+								<h4>产品中心</h4>
 								<div class="icon">
 								<i class="fa fa-pagelines fa-3x"></i>
 								</div>
 								<p>
-								 Voluptatem accusantium doloremque laudantium sprea totam rem aperiam.
+									产品中心
 								</p>
 									
 							</div>
@@ -172,12 +171,12 @@
 					<div class="col-lg-3">
 						<div class="box">
 							<div class="box-gray aligncenter">
-								<h4>Customizable</h4>
+								<h4>人才招聘</h4>
 								<div class="icon">
 								<i class="fa fa-edit fa-3x"></i>
 								</div>
 								<p>
-								 Voluptatem accusantium doloremque laudantium sprea totam rem aperiam.
+									人才招聘
 								</p>
 									
 							</div>
@@ -189,12 +188,12 @@
 					<div class="col-lg-3">
 						<div class="box">
 							<div class="box-gray aligncenter">
-								<h4>Valid HTML5</h4>
+								<h4>质量体系</h4>
 								<div class="icon">
 								<i class="fa fa-code fa-3x"></i>
 								</div>
 								<p>
-								 Voluptatem accusantium doloremque laudantium sprea totam rem aperiam.
+									质量体系
 								</p>
 									
 							</div>
@@ -307,15 +306,15 @@
                 <div class="widget">
                     <h5 class="widgetheading">最新投稿</h5>
                     <ul class="link-list">
-                        <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
-                        <li><a href="#">Pellentesque et pulvinar enim. Quisque at tempor ligula</a></li>
-                        <li><a href="#">Natus error sit voluptatem accusantium doloremque</a></li>
+                        <li><a href="#">人才招聘</a></li>
+                        <li><a href="#">公司规划</a></li>
+                        <li><a href="#">前景展望</a></li>
                     </ul>
                 </div>
             </div>
             <div class="col-lg-3">
                 <div class="widget">
-                    <h5 class="widgetheading">Flickr photostream</h5>
+                    <h5 class="widgetheading">联系我们</h5>
                     <div class="flickr_badge">
                         <!--<script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=8&amp;display=random&amp;size=s&amp;layout=x&amp;source=user&amp;user=34178660@N03"></script>-->
                     </div>
@@ -331,7 +330,7 @@
                 <div class="col-lg-6">
                     <div class="copyright">
                         <p>
-                            <span>&copy; 成都新旺激光 2016 All right reserved </span> <a href="http://www.baidu.com/"></a>
+                            <span>&copy; 成都新旺激光 2016 All right reserved </span>
                         </p>
                         <!--
                             All links in the footer should remain intact.

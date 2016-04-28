@@ -22,7 +22,7 @@ class CategoryController extends Controller
         import('Cla.Category');
 
         $count = M('cate')->count();
-        $page = new Page($count,3);
+        $page = new Page($count,5);
 
         $limit = $page->firstRow.','.$page->listRows;
         $cate = M('cate')->limit($limit)->select();

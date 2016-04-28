@@ -96,12 +96,14 @@
 						<!-- Item Project and Filter Name -->
 						<li class="item-thumbs col-lg-3 design" data-id="id-0" data-type="web">
 						<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-						<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Portfolio name" href="/Moderna/bili/Home/View/Public/img/works/1.jpg">
+						<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Portfolio name" href="/Moderna/Uploads/2016-04-27/5720cf2a97444.png">
 						<span class="overlay-img"></span>
 						<span class="overlay-img-thumb font-icon-plus"></span>
 						</a>
+
+							<!--/Moderna/bili/Home/View/Public/img/works/1.jpg-->
 						<!-- Thumb Image and Description -->
-						<img src="/Moderna/bili/Home/View/Public/img/works/1.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
+						<img src="/Moderna/Uploads/2016-04-27/5720cf2a97444.png" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
 						</li>
 						<!-- End Item Project -->
 						<!-- Item Project and Filter Name -->

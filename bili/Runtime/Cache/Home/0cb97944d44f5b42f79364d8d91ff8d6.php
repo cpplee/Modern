@@ -44,7 +44,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="../index.html"><span>成都新旺激光</span>技术有限公司</a>
+                <a class="navbar-brand" href=""><span>成都新旺激光</span>技术有限公司</a>
             </div>
 
             <div class="navbar-collapse collapse ">
@@ -59,10 +59,10 @@
 
                     </li>
                     <li><a href="<?php echo U(MODULE_NAME.'/Product/index');?>">实例分析</a></li>
-                    <li><a href="<?php echo U(MODULE_NAME.'/Index/blog');?>">公司概况</a></li>
-                    <li><a href="<?php echo U(MODULE_NAME.'/Index/typography');?>">人才招聘</a></li>
-                    <li><a href="<?php echo U(MODULE_NAME.'/Index/components');?>">质量体系</a></li>
-                    <li class="active"><a href="<?php echo U(MODULE_NAME.'/Index/contact');?>">联系我们</a></li>
+                    <li><a href="<?php echo U(MODULE_NAME.'/Company/index');?>">公司概况</a></li>
+                    <li><a href="<?php echo U(MODULE_NAME.'/People/index');?>">人才招聘</a></li>
+                    <li><a href="<?php echo U(MODULE_NAME.'/Quality/index');?>">质量体系</a></li>
+                    <li class="active"><a href="<?php echo U(MODULE_NAME.'/Contact/index');?>">联系我们</a></li>
                 </ul>
             </div>
         </div>
@@ -162,15 +162,15 @@
                 <div class="widget">
                     <h5 class="widgetheading">最新投稿</h5>
                     <ul class="link-list">
-                        <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
-                        <li><a href="#">Pellentesque et pulvinar enim. Quisque at tempor ligula</a></li>
-                        <li><a href="#">Natus error sit voluptatem accusantium doloremque</a></li>
+                        <li><a href="#">人才招聘</a></li>
+                        <li><a href="#">公司规划</a></li>
+                        <li><a href="#">前景展望</a></li>
                     </ul>
                 </div>
             </div>
             <div class="col-lg-3">
                 <div class="widget">
-                    <h5 class="widgetheading">Flickr photostream</h5>
+                    <h5 class="widgetheading">联系我们</h5>
                     <div class="flickr_badge">
                         <!--<script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=8&amp;display=random&amp;size=s&amp;layout=x&amp;source=user&amp;user=34178660@N03"></script>-->
                     </div>
@@ -186,7 +186,7 @@
                 <div class="col-lg-6">
                     <div class="copyright">
                         <p>
-                            <span>&copy; 成都新旺激光 2016 All right reserved </span> <a href="http://www.baidu.com/"></a>
+                            <span>&copy; 成都新旺激光 2016 All right reserved </span>
                         </p>
                         <!--
                             All links in the footer should remain intact.
