@@ -67,6 +67,7 @@
 						<!-- Item Project and Filter Name -->
 						<foreach name="product" item="product_v">
 						<li class="item-thumbs col-lg-3 design" data-id="id-{$product_v.cid}" data-type="{$product_v['datatype']}">
+							<div class="item-thumbs">
 						<!-- Fancybox - Gallery Enabled - Title - Full Image -->
 						<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="{$product_v['pictitle']}" href="__ROOT__{$product_v['pic']}">
 						<span class="overlay-img"></span>
@@ -74,6 +75,7 @@
 						</a>
 						<!-- Thumb Image and Description -->
 						<img src="__ROOT__{$product_v['pic']}" alt="{$product_v['picalt']}">
+							</div>
 						</li>
 						</foreach>
 						<!-- End Item Project -->

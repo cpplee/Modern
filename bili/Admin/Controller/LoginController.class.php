@@ -67,5 +67,13 @@ class LoginController extends Controller
 
     }
 
+    public function logout(){
+
+        unset($_SESSION['uid']);
+        unset($_SESSION['username']);
+        $this->success('退出成功',U(MODULE_NAME.'/Login/index'));
+
+    }
+
 
 }

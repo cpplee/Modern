@@ -12,11 +12,8 @@
 <link href="/Moderna/bili/Home/View/Public/Css/jcarousel.css" rel="stylesheet" />
 <link href="/Moderna/bili/Home/View/Public/Css/flexslider.css" rel="stylesheet" />
 <link href="/Moderna/bili/Home/View/Public/Css/style.css" rel="stylesheet" />
-
-
 <!-- Theme skin -->
 <link href="/Moderna/bili/Home/View/Public/Css/skins/default.css" rel="stylesheet" />
-
 <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
 <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -82,7 +79,7 @@
 							<div class="post-heading">
 								<h3 class="navbar-brand" href="#"><span>新旺激光</span>质量目标</h3>
 							</div>
-							<img src="/Moderna/bili/Home/View/Public/img/dummies/blog/img3.jpg" alt="" />
+							<img src="/Moderna/bili/Home/View/Public/img/works/4.jpg" alt="" />
 						</div>
 						<div>
 							<p><span style="color: red;">以顾客为关注焦点</span>：组织依存于其顾客。因此组织应理解顾客当前和未来的需求，满足顾客并争取超越顾客期望。</p>
@@ -109,7 +106,7 @@
 							<div class="post-heading">
 								<h3 class="navbar-brand" href="#">质量方针</h3>
 							</div>
-							<img src="/Moderna/bili/Home/View/Public/img/dummies/blog/img2.jpg" alt="" />
+							<img src="/Moderna/bili/Home/View/Public/img/works/1.jpg" alt="" />
 						</div>
 						<div>
 							以顾客为关注焦点：组织依存于其顾客。因此组织应理解顾客当前和未来的需求，满足顾客并争取超越顾客期望。
@@ -199,11 +196,11 @@
                 </div>
                 <div class="col-lg-6">
                     <ul class="social-network">
-                        <li><a href="#" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#" data-placement="top" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-                        <li><a href="#" data-placement="top" title="Pinterest"><i class="fa fa-pinterest"></i></a></li>
-                        <li><a href="#" data-placement="top" title="Google plus"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#" data-placement="top" title="qq"><i class="icon-github-alt"></i></a></li>
+                        <!--<li><a href="#" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a></li>-->
+                        <!--<li><a href="#" data-placement="top" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>-->
+                        <!--<li><a href="#" data-placement="top" title="Pinterest"><i class="fa fa-pinterest"></i></a></li>-->
+                        <!--<li><a href="#" data-placement="top" title="Google plus"><i class="fa fa-google-plus"></i></a></li>-->
                     </ul>
                 </div>
             </div>

@@ -13,7 +13,7 @@ use Think\Controller;
 use Cla\Category;
 use Think\Page;
 
-class CategoryController extends Controller
+class CategoryController extends BaseController
 {
 
 

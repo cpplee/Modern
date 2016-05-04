@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Moderna - Bootstrap 3 flat corporate template</title>
+<title>成都新旺激光技术有限公司</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="description" content="" />
 <meta name="author" content="http://bootstraptaste.com" />
@@ -179,11 +179,11 @@
                 </div>
                 <div class="col-lg-6">
                     <ul class="social-network">
-                        <li><a href="#" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#" data-placement="top" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-                        <li><a href="#" data-placement="top" title="Pinterest"><i class="fa fa-pinterest"></i></a></li>
-                        <li><a href="#" data-placement="top" title="Google plus"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#" data-placement="top" title="qq"><i class="icon-github-alt"></i></a></li>
+                        <!--<li><a href="#" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a></li>-->
+                        <!--<li><a href="#" data-placement="top" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>-->
+                        <!--<li><a href="#" data-placement="top" title="Pinterest"><i class="fa fa-pinterest"></i></a></li>-->
+                        <!--<li><a href="#" data-placement="top" title="Google plus"><i class="fa fa-google-plus"></i></a></li>-->
                     </ul>
                 </div>
             </div>

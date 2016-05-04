@@ -65,8 +65,8 @@
 		<div class="col-lg-2 col-lg-offset-10">
 			<!--<aside class="right-sidebar">-->
 				<div class="widget">
-					<form class="form-search">
-						<input class="form-control" type="text" placeholder="Search..">
+					<form class="form-search"  action="<?php echo U(MODULE_NAME.'/Index/search');?>" method="post">
+						<input class="form-control" type="text"  name="search" placeholder="搜索..">
 					</form>
 				</div>
 			<!--</aside>-->
@@ -83,7 +83,7 @@
                 <div class="flex-caption">
                     <h3>加入我们</h3>
 					<p>成都新旺激光技术有限公司</p>
-					<a href="#" class="btn btn-theme">更多了解</a>
+					<a href="<?php echo U(MODULE_NAME.'/Company/index');?>" class="btn btn-theme">更多了解</a>
                 </div>
               </li>
               <li>
@@ -92,7 +92,7 @@
                     <h3>加入我们</h3>
 					<p>邮编：401329<br>
 						重庆市九龙坡区白市驿镇海龙工业园区</p>
-					<a href="#" class="btn btn-theme">更多了解</a>
+					<a href="<?php echo U(MODULE_NAME.'/Company/index');?>" class="btn btn-theme">更多了解</a>
                 </div>
               </li>
               <li>
@@ -103,7 +103,7 @@
 						<i class="icon-phone"></i> (传真) 023-65710879 <br>
 						<i class="icon-envelope-alt"></i> (邮箱) xdxwjs@163.com
 					</p>
-					<a href="#" class="btn btn-theme">更多了解</a>
+					<a href="<?php echo U(MODULE_NAME.'/Company/index');?>" class="btn btn-theme">更多了解</a>
                 </div>
               </li>
             </ul>
@@ -147,7 +147,7 @@
 									
 							</div>
 							<div class="box-bottom">
-								<a href="#">Learn more</a>
+								<a href="<?php echo U(MODULE_NAME.'/Company/index');?>">了解更多</a>
 							</div>
 						</div>
 					</div>
@@ -164,7 +164,7 @@
 									
 							</div>
 							<div class="box-bottom">
-								<a href="#">Learn more</a>
+								<a href="<?php echo U(MODULE_NAME.'/Product/index');?>">了解更多</a>
 							</div>
 						</div>
 					</div>
@@ -181,7 +181,7 @@
 									
 							</div>
 							<div class="box-bottom">
-								<a href="#">Learn more</a>
+								<a href="<?php echo U(MODULE_NAME.'/People/index');?>">了解更多</a>
 							</div>
 						</div>
 					</div>
@@ -195,10 +195,9 @@
 								<p>
 									质量体系
 								</p>
-									
 							</div>
 							<div class="box-bottom">
-								<a href="#">Learn more</a>
+								<a href="<?php echo U(MODULE_NAME.'/Quality/index');?>">了解更多</a>
 							</div>
 						</div>
 					</div>
@@ -216,56 +215,23 @@
 		<!-- Portfolio Projects -->
 		<div class="row">
 			<div class="col-lg-12">
-				<h4 class="heading">Recent Works</h4>
+				<h4 class="heading">近期产品</h4>
 				<div class="row">
 					<section id="projects">
 					<ul id="thumbs" class="portfolio">
 						<!-- Item Project and Filter Name -->
-						<li class="col-lg-3 design" data-id="id-0" data-type="web">
+						<?php if(is_array($product)): foreach($product as $key=>$product_v): ?><li class="item-thumbs col-lg-3 design" data-id="id-<?php echo ($product_v["cid"]); ?>" data-type="<?php echo ($product_v['datatype']); ?>">
 						<div class="item-thumbs">
 						<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-						<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Work 1" href="/Moderna/bili/Home/View/Public/img/works/1.jpg">
-						<span class="overlay-img"></span>
-						<span class="overlay-img-thumb font-icon-plus"></span>
-						</a>
+							<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="<?php echo ($product_v['pictitle']); ?>" href="/Moderna<?php echo ($product_v['pic']); ?>">
+								<span class="overlay-img"></span>
+								<span class="overlay-img-thumb font-icon-plus"></span>
+							</a>
 						<!-- Thumb Image and Description -->
-						<img src="/Moderna/bili/Home/View/Public/img/works/1.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
+							<img src="/Moderna<?php echo ($product_v['pic']); ?>" alt="<?php echo ($product_v['picalt']); ?>">
 						</div>
 						</li>
-						<!-- End Item Project -->
-						<!-- Item Project and Filter Name -->
-						<li class="item-thumbs col-lg-3 design" data-id="id-1" data-type="icon">
-						<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-						<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Work 2" href="/Moderna/bili/Home/View/Public/img/works/2.jpg">
-						<span class="overlay-img"></span>
-						<span class="overlay-img-thumb font-icon-plus"></span>
-						</a>
-						<!-- Thumb Image and Description -->
-						<img src="/Moderna/bili/Home/View/Public/img/works/2.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
-						</li>
-						<!-- End Item Project -->
-						<!-- Item Project and Filter Name -->
-						<li class="item-thumbs col-lg-3 photography" data-id="id-2" data-type="illustrator">
-						<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-						<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Work 3" href="/Moderna/bili/Home/View/Public/img/works/3.jpg">
-						<span class="overlay-img"></span>
-						<span class="overlay-img-thumb font-icon-plus"></span>
-						</a>
-						<!-- Thumb Image and Description -->
-						<img src="/Moderna/bili/Home/View/Public/img/works/3.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
-						</li>
-						<!-- End Item Project -->
-						<!-- Item Project and Filter Name -->
-						<li class="item-thumbs col-lg-3 photography" data-id="id-2" data-type="illustrator">
-						<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-						<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Work 4" href="/Moderna/bili/Home/View/Public/img/works/4.jpg">
-						<span class="overlay-img"></span>
-						<span class="overlay-img-thumb font-icon-plus"></span>
-						</a>
-						<!-- Thumb Image and Description -->
-						<img src="/Moderna/bili/Home/View/Public/img/works/4.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
-						</li>
-						<!-- End Item Project -->
+						<!-- End Item Project --><?php endforeach; endif; ?>
 					</ul>
 					</section>
 				</div>
@@ -341,11 +307,11 @@
                 </div>
                 <div class="col-lg-6">
                     <ul class="social-network">
-                        <li><a href="#" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#" data-placement="top" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-                        <li><a href="#" data-placement="top" title="Pinterest"><i class="fa fa-pinterest"></i></a></li>
-                        <li><a href="#" data-placement="top" title="Google plus"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#" data-placement="top" title="qq"><i class="icon-github-alt"></i></a></li>
+                        <!--<li><a href="#" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a></li>-->
+                        <!--<li><a href="#" data-placement="top" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>-->
+                        <!--<li><a href="#" data-placement="top" title="Pinterest"><i class="fa fa-pinterest"></i></a></li>-->
+                        <!--<li><a href="#" data-placement="top" title="Google plus"><i class="fa fa-google-plus"></i></a></li>-->
                     </ul>
                 </div>
             </div>

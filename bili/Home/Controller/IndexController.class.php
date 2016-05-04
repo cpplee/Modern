@@ -14,33 +14,28 @@ class IndexController extends ComController{
     public function index(){
 
 
+       $product =  M('product')->order('id DESC')->limit(4)->select();
+
+       // p($product);
+        $this->assign('product',$product);
+
         $this->listCate();
         $this->display();
     }
 
 
-    public function typography(){
+   public function search(){
 
-        $this->display();
-    }
+       $search = I('search');
+       $search = '%'.$search.'%';
+       p($search);
+       $where['productname'] = array('like',$search);
 
+       $result = M('product')->where($where)->find();
 
+       $this->redirect(MODULE_NAME.'/Product/productcate/id/'.$result['cid']);
 
-    public function components(){
-
-        $this->display();
-    }
-
-
-    public function pricingbox(){
-        $this->display();
-    }
-
-    public function contact(){
-
-        $this->display();
-
-    }
+   }
 
 
 

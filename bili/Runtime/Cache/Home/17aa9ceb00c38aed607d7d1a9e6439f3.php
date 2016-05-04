@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>成都新旺技术有限公司</title>
+<title>成都新旺激光技术有限公司</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="description" content="" />
 <meta name="author" content="http://bootstraptaste.com" />
@@ -12,12 +12,17 @@
 <link href="/Moderna/bili/Home/View/Public/Css/jcarousel.css" rel="stylesheet" />
 <link href="/Moderna/bili/Home/View/Public/Css/flexslider.css" rel="stylesheet" />
 <link href="/Moderna/bili/Home/View/Public/Css/style.css" rel="stylesheet" />
+
+	<!--<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"/>-->
+
 <!-- Theme skin -->
 <link href="/Moderna/bili/Home/View/Public/Css/skins/default.css" rel="stylesheet" />
+
 <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
 <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+
 </head>
 <body>
 <div id="wrapper">
@@ -62,7 +67,7 @@
 			<div class="col-lg-12">
 				<ul class="breadcrumb">
 					<li><a href="#"><i class="fa fa-home"></i></a><i class="icon-angle-right"></i></li>
-					<li class="active">人才招聘</li>
+					<li class="active">公司讯息</li>
 				</ul>
 			</div>
 		</div>
@@ -71,223 +76,76 @@
 	<section id="content">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-4">
-				<h4>H1-H6 Heading style</h4>
-				<h1>Heading H1</h1>
-				<h2>Heading H2</h2>
-				<h3>Heading H3</h3>
-				<h4>Heading H4</h4>
-				<h5>Heading H5</h5>
-				<h6>Heading H6</h6>
-			</div>
-			<div class="col-lg-4">
-				<h4>Example of paragraph</h4>
-				<p>
-					<strong>Lorem ipsum dolor sit amet</strong>, consetetur sadipscing elitr, sed diam non mod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-				</p>
-				<p class="lead">
-					At vero eos et accusam et justo duo dolores et eabum.
-				</p>
-				<p>
-					<em>
-					Consetetur sadipscing elitr, sed diam non mod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </em>
-				</p>
-				<p>
-					<small>
-					Consetetur sadipscing elitr, sed diam non mod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </small>
-				</p>
-			</div>
-			<div class="col-lg-4">
-				<h4>Float image in paragraph</h4>
-				<img src="/Moderna/bili/Home/View/Public/img/dummies/dummy-1.jpg" alt="" class="align-left" />
-				<p>
-					 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non mod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et eabum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet
-				</p>
-			</div>
-		</div>
-		<!-- divider -->
-		<div class="row">
-			<div class="col-lg-12">
-				<div class="solidline">
-				</div>
-			</div>
-		</div>
-		<!-- end divider -->
-		<!-- Descriptions -->
-		<div class="row">
-			<div class="col-lg-6">
-				<!-- Description -->
-				<h4>Description</h4>
-				<dl>
-					<dt>Description lists</dt>
-					<dd>A description list is perfect for defining terms.</dd>
-					<dt>Euismod</dt>
-					<dd>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</dd>
-					<dd>Donec id elit non mi porta gravida at eget metus.</dd>
-					<dt>Malesuada porta</dt>
-					<dd>Etiam porta sem malesuada magna mollis euismod.</dd>
-				</dl>
-			</div>
-			<!-- Horizontal Description -->
-			<div class="col-lg-6">
-				<h4>Horizontal Description</h4>
-				<dl class="dl-horizontal">
-					<dt>Description lists</dt>
-					<dd>A description list is perfect for defining terms.</dd>
-					<dt>Euismod</dt>
-					<dd>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</dd>
-					<dd>Donec id elit non mi porta gravida at eget metus.</dd>
-					<dt>Malesuada porta</dt>
-					<dd>Etiam porta sem malesuada magna mollis euismod.</dd>
-					<dt>Felis euismod semper eget lacinia</dt>
-					<dd>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</dd>
-				</dl>
-			</div>
-		</div>
-		<!-- divider -->
-		<div class="row">
-			<div class="col-lg-12">
-				<div class="solidline">
-				</div>
-			</div>
-		</div>
-		<!-- end divider -->
-		<!-- Lists -->
-		<div class="row">
-			<!-- Unordered Lists -->
-			<div class="col-lg-3">
-				<h4>Unordered Lists</h4>
-				<ul>
-					<li>Lorem ipsum dolor sit amet</li>
-					<li>Consectetur adipiscing elit</li>
-					<li>Integer molestie lorem at massa</li>
-					<li>Facilisis in pretium nisl aliquet</li>
-					<li>Nulla volutpat aliquam velit
-					<ul>
-						<li>Phasellus iaculis neque</li>
-						<li>Purus sodales ultricies</li>
-						<li>Vestibulum laoreet porttitor sem</li>
-						<li>Ac tristique libero volutpat at</li>
+			<div class="col-lg-8">
+				<?php if(is_array($blog)): foreach($blog as $key=>$blog_v): ?><article>
+						<div class="post-image">
+							<div class="post-heading">
+								<h3><a href="#"><?php echo ($blog_v["blogfirsttitle"]); ?></a></h3>
+							</div>
+							<!--<img src="/Moderna/bili/Home/View/Public/img/dummies/blog/img1.jpg" alt="" />-->
+						</div>
+						<p>
+							<?php echo ($blog_v["content"]); ?>
+						</p>
+						<div class="bottom-article">
+							<ul class="meta-post">
+								<li><i class="icon-calendar"></i><a href="#"><?php echo (date("Y-m-d H:i",$blog_v["time"])); ?></a></li>
+								<li><i class="icon-user"></i><a href="#"><?php echo ($blog_v["blogsecondtitle"]); ?></a></li>
+								<li><i class="icon-folder-open"></i><a href="#">新旺</a></li>
+								<li><i class="icon-comments"></i><a href="#"><?php echo ($blog_v["click"]); ?>次点击</a></li>
+							</ul>
+							<a href="<?php echo U(MODULE_NAME.'/People/show',array('id'=>$blog_v['id']));?>" class="pull-right">阅读全文<i class="icon-angle-right"></i></a>
+						</div>
+				</article><?php endforeach; endif; ?>
+				<div class="text-center">
+					<ul class="pagination ">
+						<?php echo ($page); ?>
 					</ul>
-					</li>
-					<li>Faucibus porta lacus fringilla vel</li>
-					<li>Aenean sit amet erat nunc</li>
-					<li>Eget porttitor lorem</li>
-				</ul>
-			</div>
-			<!-- Unstyled Lists -->
-			<div class="col-lg-3">
-				<h4>Unstyled Lists</h4>
-				<ul class="unstyled">
-					<li>Lorem ipsum dolor sit amet</li>
-					<li>Consectetur adipiscing elit</li>
-					<li>Integer molestie lorem at massa</li>
-					<li>Facilisis in pretium nisl aliquet</li>
-					<li>Nulla volutpat aliquam velit
-					<ul>
-						<li>Phasellus iaculis neque</li>
-						<li>Purus sodales ultricies</li>
-						<li>Vestibulum laoreet porttitor sem</li>
-						<li>Ac tristique libero volutpat at</li>
-					</ul>
-					</li>
-					<li>Faucibus porta lacus fringilla vel</li>
-					<li>Aenean sit amet erat nunc</li>
-					<li>Eget porttitor lorem</li>
-				</ul>
-			</div>
-			<!-- Ordered Lists -->
-			<div class="col-lg-3">
-				<h4>Ordered Lists</h4>
-				<ol>
-					<li>Lorem ipsum dolor sit amet</li>
-					<li>Consectetur adipiscing elit</li>
-					<li>Integer molestie lorem at massa</li>
-					<li>Facilisis in pretium nisl aliquet</li>
-					<li>Nulla volutpat aliquam velit
-					<ol>
-						<li>Phasellus iaculis neque</li>
-						<li>Purus sodales ultricies</li>
-						<li>Vestibulum laoreet porttitor sem</li>
-						<li>Ac tristique libero volutpat at</li>
-					</ol>
-					</li>
-					<li>Faucibus porta lacus fringilla vel</li>
-					<li>Aenean sit amet erat nunc</li>
-					<li>Eget porttitor lorem</li>
-				</ol>
-			</div>
-			<!-- Unstyled Lists -->
-			<div class="col-lg-3">
-				<h4>Unstyled Lists</h4>
-				<ol class="unstyled">
-					<li>Lorem ipsum dolor sit amet</li>
-					<li>Consectetur adipiscing elit</li>
-					<li>Integer molestie lorem at massa</li>
-					<li>Facilisis in pretium nisl aliquet</li>
-					<li>Nulla volutpat aliquam velit
-					<ol>
-						<li>Phasellus iaculis neque</li>
-						<li>Purus sodales ultricies</li>
-						<li>Vestibulum laoreet porttitor sem</li>
-						<li>Ac tristique libero volutpat at</li>
-					</ol>
-					</li>
-					<li>Faucibus porta lacus fringilla vel</li>
-					<li>Aenean sit amet erat nunc</li>
-					<li>Eget porttitor lorem</li>
-				</ol>
-			</div>
-		</div>
-		<!-- divider -->
-		<div class="row">
-			<div class="col-lg-12">
-				<div class="solidline">
 				</div>
 			</div>
-		</div>
-		<!-- end divider -->
-		<div class="row">
 			<div class="col-lg-4">
-				<h4>Blockquote</h4>
-				<blockquote>
-					<i class="icon-quote-left icon-2x"></i> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non mod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-				</blockquote>
+				<aside class="right-sidebar">
+					<div class="widget">
+						<form class="form-search">
+							<input class="form-control" type="text" placeholder="搜索..">
+						</form>
+					</div>
+					<div class="widget">
+						<h5 class="widgetheading">分类</h5>
+						<ul class="cat">
+							<li><i class="icon-angle-right"></i><a href="#">公司信息</a><span> (20)</span></li>
+							<li><i class="icon-angle-right"></i><a href="#">公司产品</a><span> (11)</span></li>
+							<li><i class="icon-angle-right"></i><a href="#">人性化</a><span> (9)</span></li>
+							<li><i class="icon-angle-right"></i><a href="#">专业设备</a><span> (12)</span></li>
+							<li><i class="icon-angle-right"></i><a href="#">服务</a><span> (18)</span></li>
+						</ul>
+					</div>
+					<div class="widget">
+						<h5 class="widgetheading">最新信息</h5>
+						<ul class="recent">
+							<li>
+								<img src="/Moderna/bili/Home/View/Public/img/dummies/blog/65x65/thumb1.jpg" class="pull-left" alt="" />
+								<h6><a href="#">加入我们</a></h6>
+								<p>
+									成都新旺技术有限公司
+								</p>
+							</li>
+
+						</ul>
+					</div>
+					<div class="widget">
+						<h5 class="widgetheading">流行 标签</h5>
+						<ul class="tags">
+							<li><a href="#">产品设计</a></li>
+							<li><a href="#">未来</a></li>
+							<li><a href="#">技术</a></li>
+							<li><a href="#">网络</a></li>
+							<li><a href="#">宗旨</a></li>
+							<li><a href="#">发展</a></li>
+						</ul>
+					</div>
+				</aside>
 			</div>
-			<div class="col-lg-4">
-				<h4>Blockquote and cite</h4>
-				<blockquote>
-					<i class="icon-quote-left icon-2x"></i> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non mod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. <cite>John doe, Awesome Inc.</cite>
-				</blockquote>
-			</div>
-			<div class="col-lg-4">
-				<h4>Pullquote left and right</h4>
-				<span class="pullquote-left">
-				Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non mod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </span>
-				<span class="pullquote-right margintop10">
-				Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non mod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </span>
-			</div>
-		</div>
-		<!-- divider -->
-		<div class="row">
-			<div class="col-lg-12">
-				<div class="solidline">
-				</div>
-			</div>
-		</div>
-		<!-- end divider -->
-		<div class="row">
-			<div class="col-lg-12">
-				<h4>Preformatted text</h4>
-				<pre class="prettyprint linenums">
-					 &lt;div class="col-lg-12"&gt;<br />
-					 &nbsp;&nbsp;&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr..&lt;/p&gt;<br />
-					 &nbsp;&nbsp;&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr..&lt;/p&gt;<br />
-					 &nbsp;&nbsp;&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr..&lt;/p&gt;<br />
-					 &lt;/div&gt;
-				</pre>
-			</div>
-		</div>
 	</div>
 	</section>
 	<footer>
@@ -357,11 +215,11 @@
                 </div>
                 <div class="col-lg-6">
                     <ul class="social-network">
-                        <li><a href="#" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#" data-placement="top" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-                        <li><a href="#" data-placement="top" title="Pinterest"><i class="fa fa-pinterest"></i></a></li>
-                        <li><a href="#" data-placement="top" title="Google plus"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#" data-placement="top" title="qq"><i class="icon-github-alt"></i></a></li>
+                        <!--<li><a href="#" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a></li>-->
+                        <!--<li><a href="#" data-placement="top" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>-->
+                        <!--<li><a href="#" data-placement="top" title="Pinterest"><i class="fa fa-pinterest"></i></a></li>-->
+                        <!--<li><a href="#" data-placement="top" title="Google plus"><i class="fa fa-google-plus"></i></a></li>-->
                     </ul>
                 </div>
             </div>

@@ -8,7 +8,7 @@
     <meta name="keyword" content="Creative, Dashboard, Admin, Template, Theme, Bootstrap, Responsive, Retina, Minimal">
     <link rel="shortcut icon" href="/Moderna/bili/Admin/View/Public/img/favicon.png">
 
-    <title>Login Page 2 | Creative - Bootstrap 3 Responsive Admin Template</title>
+    <title>成都新旺激光技术有限公司</title>
 
     <!-- Bootstrap CSS -->    
     <link href="/Moderna/bili/Admin/View/Public/css/bootstrap.min.css" rel="stylesheet">
@@ -38,18 +38,18 @@
             <p class="login-img"><i class="icon_lock_alt"></i></p>
             <div class="input-group">
               <span class="input-group-addon"><i class="icon_profile"></i></span>
-              <input type="text" class="form-control" name="username" placeholder="Username" autofocus>
+              <input type="text" class="form-control" name="username" placeholder="请输入用户名" autofocus>
             </div>
             <div class="input-group">
                 <span class="input-group-addon"><i class="icon_key_alt"></i></span>
-                <input type="password" class="form-control" name="password" placeholder="Password">
+                <input type="password" class="form-control" name="password" placeholder="请输入密码">
             </div>
             <label class="checkbox">
-                <input type="checkbox" value="remember-me" name="remember"> Remember me
-                <span class="pull-right"> <a href="#"> Forgot Password?</a></span>
+                <input type="checkbox" value="remember-me" name="remember"> 记住 我
+                <span class="pull-right"> <a href="#"> 忘记密码?</a></span>
             </label>
-            <button class="btn btn-primary btn-lg btn-block" type="submit">Login</button>
-            <button class="btn btn-info btn-lg btn-block" type="submit">Signup</button>
+            <button class="btn btn-primary btn-lg btn-block" type="submit">登录</button>
+            <button class="btn btn-info btn-lg btn-block" type="submit">注册</button>
         </div>
       </form>
 

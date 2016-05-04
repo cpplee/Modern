@@ -1,0 +1,24 @@
+[ 2016-05-04T13:09:23+08:00 ] ::1 /Moderna/index.php/GROUP_NAME/Blog/upload?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:GROUP_NAME
+
+[ 2016-05-04T13:13:43+08:00 ] ::1 /Moderna/index.php/GROUP_NAME/Blog/addBlog
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:GROUP_NAME
+
+[ 2016-05-04T13:16:18+08:00 ] ::1 /Moderna/index.php/GROUP_NAME/Blog/addBlog
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:GROUP_NAME
+
+[ 2016-05-04T13:16:19+08:00 ] ::1 /Moderna/index.php/GROUP_NAME/Blog/addBlog
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:GROUP_NAME
+

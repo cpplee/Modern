@@ -96,6 +96,7 @@
 					<ul id="thumbs" class="portfolio">
 						<!-- Item Project and Filter Name -->
 						<?php if(is_array($product)): foreach($product as $key=>$product_v): ?><li class="item-thumbs col-lg-3 design" data-id="id-<?php echo ($product_v["cid"]); ?>" data-type="<?php echo ($product_v['datatype']); ?>">
+							<div class="item-thumbs">
 						<!-- Fancybox - Gallery Enabled - Title - Full Image -->
 						<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="<?php echo ($product_v['pictitle']); ?>" href="/Moderna<?php echo ($product_v['pic']); ?>">
 						<span class="overlay-img"></span>
@@ -103,6 +104,7 @@
 						</a>
 						<!-- Thumb Image and Description -->
 						<img src="/Moderna<?php echo ($product_v['pic']); ?>" alt="<?php echo ($product_v['picalt']); ?>">
+							</div>
 						</li><?php endforeach; endif; ?>
 						<!-- End Item Project -->
 					</ul>
@@ -184,11 +186,11 @@
                 </div>
                 <div class="col-lg-6">
                     <ul class="social-network">
-                        <li><a href="#" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#" data-placement="top" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-                        <li><a href="#" data-placement="top" title="Pinterest"><i class="fa fa-pinterest"></i></a></li>
-                        <li><a href="#" data-placement="top" title="Google plus"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#" data-placement="top" title="qq"><i class="icon-github-alt"></i></a></li>
+                        <!--<li><a href="#" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a></li>-->
+                        <!--<li><a href="#" data-placement="top" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>-->
+                        <!--<li><a href="#" data-placement="top" title="Pinterest"><i class="fa fa-pinterest"></i></a></li>-->
+                        <!--<li><a href="#" data-placement="top" title="Google plus"><i class="fa fa-google-plus"></i></a></li>-->
                     </ul>
                 </div>
             </div>

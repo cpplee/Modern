@@ -10,19 +10,26 @@ namespace Admin\Controller;
 
 use Think\Controller;
 use Think\Upload;
+use Think\Page;
 
 
-class ProductController extends Controller
+class ProductController extends BaseController
 {
 
 
     public function index(){
 
-        $product = M('product')->select();
+        $count = M('product')->count();
+        $page = new Page($count,5);
+
+        $limit = $page->firstRow.','.$page->listRows;
+
+        $product = M('product')->limit($limit)->select();
 
       //  p($product);
-        $this->assign('product',$product);
 
+        $this->assign('product',$product);
+        $this->assign('page',$page->show());
         $this->display();
     }
 
